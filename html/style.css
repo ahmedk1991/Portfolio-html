@@ -14,12 +14,6 @@
     font-family: sans-serif;
 }
 
-ul{
-
-    margin-top: 0%;
-
-}
-
 
 ul li{
 list-style: none;
@@ -31,13 +25,13 @@ ul li a{
     font-size: 22px;
     text-decoration: none;
     font-weight:bold;
-    color: rgb(199, 169, 0);
+    color:rgb(199, 170, 4) ;
     margin-top:-3%;
 
 }
 .navbar{
 
-    width: 86%;
+    width: 85%;
     padding: 15px 0;
     display: flex;
     margin: auto;
@@ -59,6 +53,7 @@ ul li a:hover{
     color:rgb(219, 205, 125)
 }
 
+
 .info{
     margin-left:7%;
     margin-top:6%;
@@ -66,13 +61,13 @@ ul li a:hover{
 }
 
 .info h1{
-
+    margin-top: 2%;
     font-size: 50px;
     color:black;
 }
 
 .info h3 {
-
+    
     font-size: 20px;
     letter-spacing: 1px;
     line-height: 24px;
@@ -93,11 +88,15 @@ ul li a:hover{
     transition: .5s ease;
 }
 
+
+
 .info a:hover{
 
     background:rgb(219, 205, 125) ;
 
 }
+
+
 
 .image{
 
@@ -119,8 +118,51 @@ ul li a:hover{
     border-radius: 50px;
 
 }
-.image:hover .foto{
-    left:55%;
 
+
+.icons .git {
+    width: 50px; 
+    height: auto; 
+    position: absolute; 
+    
+    margin-top: 50px;
+    margin-left: 100px;
+    
+}
+.icons .linkedin {
+    width: 50px; 
+    height: auto; 
+    position: absolute; 
+    margin-top: 50px;
+    margin-left: 160px; 
+}
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: start; 
+    margin-top: 50px; 
+    margin-left: 100px; 
+}
+
+.icons img {
+    width: 50px;
+    height: auto;
+    margin-right: 15px; 
+}
+
+p{
+    padding: 20px;
+}
+
+
+.info h3 {
+    margin-left:1%;
+    margin-bottom: 3%;
+    font-size: 35px; 
+}
+
+.info p {
+    
+    font-size: 27px; 
 }
 
